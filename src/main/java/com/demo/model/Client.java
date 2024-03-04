@@ -24,6 +24,10 @@ import lombok.Setter;
 
 public class Client extends AuditModel implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8655857365132918097L;
 	@Column(nullable = false)
 	@NotBlank
 	private String nom,prenom;

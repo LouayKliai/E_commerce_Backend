@@ -1,11 +1,9 @@
 package com.demo.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaRepository; 
 import java.util.List;
 import java.util.Optional;
 import com.demo.model.Commande;
-import com.demo.model.Client;
-import com.demo.model.Produit;
 
 public interface CommandeRepository extends JpaRepository<Commande, Integer> {
 

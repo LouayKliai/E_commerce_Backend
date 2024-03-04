@@ -1,6 +1,6 @@
 package com.demo.model;
 
-import java.io.Serializable;
+import java.io.Serializable; 
 import java.util.HashSet;
 import java.util.Set;
 import com.fasterxml.jackson.annotation.JsonBackReference;
@@ -15,6 +15,10 @@ import lombok.Setter;
 @Setter
 public class Produit extends AuditModel implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Column(nullable = false)
 	private String nom;
 	@Column(nullable = false)
